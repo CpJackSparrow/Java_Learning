@@ -9,15 +9,15 @@ package basicpackage;
  * 3 methods are called in main method to print reverse value of input string
  * All 3 methods uses different ways to reverse the string
  */
-public class stringreversal {
+public class StringReversal {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		System.out.println(simpleStringReverse("Mohit"));//printing simplestringreverse method result
-		System.out.println(charArrayStringReverse("Ashish"));//printing simplestringreverse method result
-		System.out.println(bufferStringReverse("Rahul"));//printing simplestringreverse method result
+		System.out.println(charArrayStringReverse("Ashish"));//printing charArrayStringReverse method result
+		System.out.println(bufferStringReverse("Rahul"));//printing bufferStringReverse method result
 	}
 	
 	//string reversal using charAt method of the String class
